@@ -21,7 +21,7 @@ MF_SHOW=false
 ```
 
 (set MF_SHOW to true if you are running into problems)
-
-Configure Firefox to use mf.sh for magnet:// urls. Easiest way to do this is to fin and click a magnet link in firefox, then use the dialog to Browse to magnet-forwarder.sh. Alternatively, check the Applications section in Firefox settings.
+C
+onfigure Firefox to use mf.sh for magnet:// urls. Easiest way to do this is to fin and click a magnet link in firefox, then use the dialog to Browse to magnet-forwarder.sh. Alternatively, check the Applications section in Firefox settings. If firefox doesn't list magnet links or when you click a magnet link it doesn't ask what to do, you may need to add {boolean} network.protocol-handler.expose.magnet (false) to about:config.
 
 Good to go! Try clicking a magnet link.
